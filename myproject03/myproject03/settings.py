@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-v8#&(d1bphyy*em$3&-93z4k&aj@_i94ui)@)xg@gfgatc%7g@"
+SECRET_KEY = "django-insecure-y38xa740w!=q1qht*_sa9g+=h13ou+7sag@k6)2&uk#k4((98v"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -55,7 +55,7 @@ ROOT_URLCONF = "myproject03.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['templates'],
+        "DIRS": ["templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -122,7 +122,6 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_URL = "media/"
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
