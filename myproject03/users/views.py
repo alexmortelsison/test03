@@ -10,4 +10,4 @@ def register_view(request):
       return redirect("posts:list")
   else:
     form = UserCreationForm()
-  return render(request, "users/register.html", {"form": form})
+  return render(request, "users/register.html", {"form":form})
