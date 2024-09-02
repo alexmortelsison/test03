@@ -5,7 +5,8 @@
 {% endblock  %}
 
 {% block content %}
-  <form class="form-with-validation" action="/users/register/" method="post">
+  <h1>Register A New User</h1>
+  <form class="form-with-validation" action="/users/register/", method="post">
     {% csrf_token %}
     {{ form }}
     <button class="form-submit">Submit</button>

@@ -10,19 +10,18 @@
     {% endblock  %}
   </title>
   <link rel="stylesheet" href="{% static "css/style.css" %}">
-  <script src="{% static "js/main.js" %}" defer></script>
+  <script src="{% static "js/main.js" %}"defer></script>
 </head>
 <body>
   <nav>
     <a href="/">🏡</a> |
     <a href="/about">😊</a> |
     <a href="/posts">📝</a> |
-    <a href="/users/register/">🚀</a> |
-    <a href="/users/login/">🔒</a> |
+    <a href="/users/register">🚀</a> |
+    <a href="/users/login">🔒</a> |
   </nav>
   <main>
-    {% block content %}
-    {% endblock  %}
+    {% block content %}{% endblock  %}
   </main>
 </body>
 </html>
